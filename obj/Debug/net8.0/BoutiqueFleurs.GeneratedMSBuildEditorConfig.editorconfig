@@ -1,0 +1,45 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = BoutiqueFleurs
+build_property.RootNamespace = BoutiqueFleurs
+build_property.ProjectDir = C:\Users\cathy\Documents\BoutiqueFleurs\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = C:\Users\cathy\Documents\BoutiqueFleurs
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/cathy/Documents/BoutiqueFleurs/Views/Fleurs/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmxldXJzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cathy/Documents/BoutiqueFleurs/Views/Fleurs/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmxldXJzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cathy/Documents/BoutiqueFleurs/Views/Fleurs/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmxldXJzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cathy/Documents/BoutiqueFleurs/Views/Fleurs/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmxldXJzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cathy/Documents/BoutiqueFleurs/Views/Fleurs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmxldXJzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cathy/Documents/BoutiqueFleurs/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 

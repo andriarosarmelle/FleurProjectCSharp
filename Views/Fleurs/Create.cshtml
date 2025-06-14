@@ -1,0 +1,42 @@
+﻿@model BoutiqueFleurs.Models.Fleur
+
+@{
+    ViewData["Title"] = "Ajouter une Fleur";
+}
+
+<h1>Ajouter une Fleur</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="NomF" class="control-label"></label>
+                <input asp-for="NomF" class="form-control" />
+                <span asp-validation-for="NomF" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Couleurs" class="control-label"></label>
+                <input asp-for="Couleurs" class="form-control" />
+                <span asp-validation-for="Couleurs" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PrixF" class="control-label"></label>
+                <input asp-for="PrixF" class="form-control" />
+                <span asp-validation-for="PrixF" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Créer" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Retour à la liste</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

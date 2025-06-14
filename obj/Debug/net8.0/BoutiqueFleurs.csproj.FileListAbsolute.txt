@@ -1,0 +1,9 @@
+C:\Users\cathy\Documents\BoutiqueFleurs\obj\Debug\net8.0\BoutiqueFleurs.csproj.AssemblyReference.cache
+C:\Users\cathy\Documents\BoutiqueFleurs\obj\Debug\net8.0\BoutiqueFleurs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cathy\Documents\BoutiqueFleurs\obj\Debug\net8.0\BoutiqueFleurs.AssemblyInfoInputs.cache
+C:\Users\cathy\Documents\BoutiqueFleurs\obj\Debug\net8.0\BoutiqueFleurs.AssemblyInfo.cs
+C:\Users\cathy\Documents\BoutiqueFleurs\obj\Debug\net8.0\BoutiqueFleurs.csproj.CoreCompileInputs.cache
+C:\Users\cathy\Documents\BoutiqueFleurs\obj\Debug\net8.0\BoutiqueFleurs.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\cathy\Documents\BoutiqueFleurs\obj\Debug\net8.0\BoutiqueFleurs.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\cathy\Documents\BoutiqueFleurs\obj\Debug\net8.0\BoutiqueFleurs.RazorAssemblyInfo.cache
+C:\Users\cathy\Documents\BoutiqueFleurs\obj\Debug\net8.0\BoutiqueFleurs.RazorAssemblyInfo.cs

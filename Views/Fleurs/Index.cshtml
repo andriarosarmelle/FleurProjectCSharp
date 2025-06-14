@@ -1,0 +1,36 @@
+﻿@model IEnumerable<BoutiqueFleurs.Models.Fleur>
+
+    @{
+    ViewData["Title"] = "Liste des Fleurs";
+    }
+
+    <h1>Liste des Fleurs</h1>
+
+    <p>
+        <a asp-action="Create" class="btn btn-primary">Ajouter une Fleur</a>
+    </p>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>@Html.DisplayNameFor(model => model.NomF)</th>
+                <th>@Html.DisplayNameFor(model => model.Couleurs)</th>
+                <th>@Html.DisplayNameFor(model => model.PrixF)</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.NomF)</td>
+                <td>@Html.DisplayFor(modelItem => item.Couleurs)</td>
+                <td>@Html.DisplayFor(modelItem => item.PrixF) €</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-warning">Modifier</a>
+                    <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-sm btn-info">Détails</a>
+                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-danger">Supprimer</a>
+                </td>
+            </tr>
+        }
+        </tbody>
+    </table>

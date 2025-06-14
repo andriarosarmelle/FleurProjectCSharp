@@ -1,0 +1,36 @@
+@model BoutiqueFleurs.Models.Fleur
+
+@{
+    ViewData["Title"] = "Détails d'une Fleur";
+}
+
+<h1>Détails d'une Fleur</h1>
+
+<div>
+    <h4>Fleur</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.NomF)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.NomF)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Couleurs)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Couleurs)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.PrixF)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.PrixF) €
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Id">Modifier</a> |
+    <a asp-action="Index">Retour à la liste</a>
+</div>
